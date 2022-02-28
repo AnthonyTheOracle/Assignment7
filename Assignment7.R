@@ -9,7 +9,7 @@ data
 
 setClass("employee", slots=list(name="character", age="numeric", salary="numeric"))
 
-emp <- new("employee",name="Anthony", age=42, salary=500)
+emp <- new("employee",name="Anthony", age=38, salary=500)
 
 isS4(emp)
 
