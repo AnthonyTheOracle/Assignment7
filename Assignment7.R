@@ -2,7 +2,7 @@
 #data.gov API was used to download current smoking among adults in 2015 (national)
 dataNew <- data.frame(read.csv("C:\\USF\\SPRING2022\\R-PROGRAMMING\\Assignment7\\tobaccoUsage.csv"))
 
-data <- head(dataNew$YEAR, dataNew$LocationDesc, dataNew$Data_Value, dataNew$Age, dataNew$Gender)
+#data <- head(dataNew$YEAR, dataNew$LocationDesc, dataNew$Data_Value, dataNew$Age, dataNew$Gender, 10)
 
 data
 
